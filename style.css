@@ -1,0 +1,18 @@
+html {
+    background: url(https://genk.mediacdn.vn/k:2016/extra-large-1466515945-cover-image-1466656713911/day-la-mau-gi-xanh-duong-hay-xanh-la-hon-mot-nghin-nguoi-da-dua-ra-cau-tra-loi-khac-han-nhau.jpg);
+}
+.container{
+    display: flex;
+}
+.card{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: #fff;
+    flex: 1;
+    transition: .3s all ease;
+}
+.card:hover{
+    flex: 2;
+    background-color: rgb(207, 207, 207);
+}
